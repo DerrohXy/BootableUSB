@@ -18,10 +18,6 @@ if [ ! -f "$SOURCE" ]; then
   exit 1
 fi
 
-echo "Installing dependencies..."
-
-echo "Installing command..."
-
 mkdir -p "$INSTALL_DIR"
 cp "$SOURCE" "$TARGET"
 chmod +x "$TARGET"
